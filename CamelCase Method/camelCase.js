@@ -1,16 +1,9 @@
 String.prototype.camelCase = function () {
-  if (!this.length) {
-    return this.toString();
-  }
-  else {
-    let arrWords = this.trim().split(" ");
-    let modifyArrWords = [];
-    for (let word of arrWords) {
-      word = `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
-      modifyArrWords.push(word);
-    }
-    return modifyArrWords.join("");
-  }
+  let arrWords = this.trim().split(" ");
+  let modifyArrWords = arrWords.map(item => {
+    return item = `${item.charAt(0).toUpperCase()}${item.slice(1)}`;
+  })
+  return modifyArrWords.join("");
 }
 
-console.log("  hello case   ".camelCase()); // HelloCase
+console.log(" hello case Word  ".camelCase()); // HelloCaseWord
