@@ -4,8 +4,10 @@
 //   let resOfSum = arrayOfStrings.reduce((accumulator, string) => {
 //     return Number(string) + accumulator;
 //   }, 0);
-//   return BigInt(resOfSum);
+//   return resOfSum.toString();
 // }
+
+// console.log(sumStrings("99", "2")) // 101
 
 // ------------------------------
 
