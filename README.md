@@ -18,7 +18,7 @@ Note for F#: The input will be of (int list list) which is a List<List>
 Output will consist of a list of string values (in Haskell: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
 
 **Example Output**<br/>
-`["Open", "Open", "Senior", "Open", "Open", "Senior"]`
+`["Open", "Open", "Senior", "Open", "Open", "Senior"]`<br/>
 ---
 
 ## [Friend or Foe](https://github.com/RomanSchigolev/CodeWars/tree/master/friend%20or%20foe)
@@ -31,6 +31,6 @@ Ex: Input = `["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]`</br
 
 i.e.
 
-friend `["Ryan", "Kieran", "Mark"]` should be `["Ryan", "Mark"]`<br/>
-Note: keep the original order of the names in the output.
+friend `["Ryan", "Kieran", "Mark"]` should be `["Ryan", "Mark"]`
+Note: keep the original order of the names in the output.</br>
 ---
