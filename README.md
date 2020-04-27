@@ -1,6 +1,6 @@
 # Solutions of tasks from the CodeWars platform
 
-## Categorize New Member(https://github.com/RomanSchigolev/CodeWars/tree/master/categorize%20new%20member)
+## [Categorize New Member](https://github.com/RomanSchigolev/CodeWars/tree/master/categorize%20new%20member)
 
 The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
 
