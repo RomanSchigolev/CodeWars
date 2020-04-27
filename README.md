@@ -19,3 +19,16 @@ Output will consist of a list of string values (in Haskell: Open or Senior) stat
 
 **Example Output**<br/>
 `["Open", "Open", "Senior", "Open", "Open", "Senior"]`
+
+## [Friend or Foe](https://github.com/RomanSchigolev/CodeWars/tree/master/friend%20or%20foe)
+
+Make a program that filters a list of strings and returns a list with only your friends name in it.
+
+If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
+
+Ex: Input = `["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]`</br>
+
+i.e.
+
+friend `["Ryan", "Kieran", "Mark"]` should be `["Ryan", "Mark"]`<br/>
+Note: keep the original order of the names in the output.
