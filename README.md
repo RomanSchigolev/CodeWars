@@ -275,3 +275,28 @@ Test.assertEquals(findShort("bitcoin take over the world maybe who knows perhaps
 Test.assertEquals(findShort("turns out random test cases are easier than writing out basic ones"), 3); 
 });
 ```
+---
+
+## [Build String](https://github.com/RomanSchigolev/CodeWars/tree/master/buildString)
+
+We have an input object whose keys are characters, and the values are the position of these characters in the final line. 
+
+There are no omissions among the numbers.
+
+**Example:**
+```
+const obj = {
+  ' ': [6],
+  ',': [5],
+  d: [11],
+  e: [1],
+  H: [0],
+  l: [2, 3, 10],
+  o: [4, 8],
+  r: [9],
+  w: [7]
+};
+
+buildString(obj) -> Hello, world
+buildString2() -> ""
+```
