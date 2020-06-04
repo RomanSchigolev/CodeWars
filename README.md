@@ -275,3 +275,44 @@ Test.assertEquals(findShort("bitcoin take over the world maybe who knows perhaps
 Test.assertEquals(findShort("turns out random test cases are easier than writing out basic ones"), 3); 
 });
 ```
+---
+
+## [Build String](https://github.com/RomanSchigolev/CodeWars/tree/master/buildString)
+
+We have an input object whose keys are characters, and the values are the position of these characters in the final line. 
+
+There are no omissions among the numbers.
+
+**Example:**
+```
+const obj = {
+  ' ': [6],
+  ',': [5],
+  d: [11],
+  e: [1],
+  H: [0],
+  l: [2, 3, 10],
+  o: [4, 8],
+  r: [9],
+  w: [7]
+};
+
+buildString(obj) -> Hello, world
+buildString2() -> ""
+```
+
+---
+
+## [The intersection of arrays](https://github.com/RomanSchigolev/CodeWars/tree/master/IntersectionOfArrays)
+
+The intersection of two arrays A and B is an array with only those elements A and B that simultaneously belong to both arrays, without duplicates.
+
+Arrays are not sorted.
+
+**Example:**
+```
+const arr1 = [14, 14, 8, 8, 3, 11, 7, 17, 4, 0, 5];
+const arr2 = [14, 18, 14, 8, 8, 3, 2, 14, 19, 2];
+
+IntersecArrays(arr1, arr2) -> [ 14, 8, 3 ]
+```
