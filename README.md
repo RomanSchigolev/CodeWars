@@ -300,6 +300,7 @@ const obj = {
 buildString(obj) -> Hello, world
 buildString2() -> ""
 ```
+<<<<<<< HEAD
 
 ---
 
@@ -316,3 +317,5 @@ const arr2 = [14, 18, 14, 8, 8, 3, 2, 14, 19, 2];
 
 IntersecArrays(arr1, arr2) -> [ 14, 8, 3 ]
 ```
+=======
+>>>>>>> aa8d80f29d01447175b1a719c4467d1e91df1135
