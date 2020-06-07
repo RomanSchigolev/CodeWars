@@ -315,3 +315,13 @@ const arr2 = [14, 18, 14, 8, 8, 3, 2, 14, 19, 2];
 
 IntersecArrays(arr1, arr2) -> [ 14, 8, 3 ]
 ```
+---
+
+## [Moving Zeros To The End](https://github.com/RomanSchigolev/CodeWars/tree/master/MovingZerosToTheEnd)
+
+Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
+
+**Example:**
+```
+moveZeros([false,1,0,1,2,0,1,3,"a"]) -> [false,1,1,2,1,3,"a",0,0]
+```
