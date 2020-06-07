@@ -10,7 +10,7 @@ const scramble = (str1, str2) => {
       letterCounts[letter]--;
       return true;
     } else {
-      // после не выполнения условия: letterCounts = { r: 0, k: 1, q: 1, o: 0, d: 0, l: 0, w: 0 }
+      // после невыполнения условия: letterCounts = { r: 0, k: 1, q: 1, o: 0, d: 0, l: 0, w: 0 }
       return false;
     }
   });
