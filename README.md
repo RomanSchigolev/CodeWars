@@ -337,7 +337,6 @@ Complete the function scramble(str1, str2) that returns true if a portion of str
 
 * Performance needs to be considered.
 
-
 Input strings s1 and s2 are null terminated.
 
 **Examples:**
@@ -346,3 +345,16 @@ scramble('rkqodlw', 'world') -> True
 scramble('cedewaraaossoqqyt', 'codewars') -> True
 scramble('katas', 'steak') -> False
 ```
+---
+
+## [Human Readable Time](https://github.com/RomanSchigolev/CodeWars/tree/master/HumanReadableTime)
+
+Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
+
+* HH = hours, padded to 2 digits, range: 00 - 99;
+* MM = minutes, padded to 2 digits, range: 00 - 59;
+* SS = seconds, padded to 2 digits, range: 00 - 59.
+
+The maximum time never exceeds 359999 (99:59:59).
+
+You can find some examples in the test fixtures.
