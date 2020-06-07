@@ -17,3 +17,10 @@ function IntersecArrays(arr1, arr2) {
 }
 
 console.log(IntersecArrays(arr1, arr2)); // [ 14, 8, 3 ]
+
+// methods filter and includes
+const IntersecArraysSecond = (arr1, arr2) => {
+  return [...new Set(arr1)].filter(item => arr2.includes(item));
+}
+console.log(IntersecArraysSecond(arr1, arr2)); // [ 14, 8, 3 ]
+
