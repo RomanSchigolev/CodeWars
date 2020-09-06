@@ -397,3 +397,17 @@ The menu items are fairly simple, there is no overlap in the names of the items:
 Input: getOrder("milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza")
 Output: "Burger Fries Chicken Pizza Pizza Pizza Sandwich Milkshake Milkshake Coke"
 ```
+
+---
+
+## [Return a string's even characters](https://github.com/RomanSchigolev/CodeWars/blob/master/Return%20a%20string's%20even%20characters/index.js)
+
+Write a function that returns a sequence (index begins with 1) of all the even characters from a string. 
+
+If the string is smaller than two characters or longer than 100 characters, the function should return "invalid string".
+
+**Example:**
+```
+"abcdefghijklm" --> ["b", "d", "f", "h", "j", "l"]
+"a"             --> "invalid string"
+```
