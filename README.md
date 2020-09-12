@@ -411,3 +411,17 @@ If the string is smaller than two characters or longer than 100 characters, the 
 "abcdefghijklm" --> ["b", "d", "f", "h", "j", "l"]
 "a"             --> "invalid string"
 ```
+
+---
+
+## [Difference in arrays](https://github.com/RomanSchigolev/CodeWars/blob/master/Difference%20in%20arrays/index.js)
+
+Implement a function that finds the difference in arrays and returns it.
+
+The order of returned elements is not important
+
+**Example:**
+```
+arrayDifference1(['javascript', 'is', 'awesome'], ['javascript', 'awesome']) => ['is']
+arrayDifference1([1, 2, 3, 4, 5], [3, 4, 2, 7]) => [1, 5, 7]
+```
