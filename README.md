@@ -437,3 +437,17 @@ Implement a function that removes elements from an array.
 destroyer([1, 2, 3, 4, 5, 6, 7], 1, 3, 5, 6) => [2, 4, 7]
 destroyer(['this', 'is', 'simple', 'algorithm'], 'this', 'is') => ['simple', 'algorithm']
 ```
+
+---
+
+## [Checking parameters](https://github.com/RomanSchigolev/CodeWars/blob/master/Checking%20parameters/index.js)
+
+Check whether the second parameter of the function is true for each element of the collection. 
+
+If it is true for all elements (passes the if check), the function returns true, otherwise it returns false.
+
+**Example:**
+```
+isEverythingTruthy([{name: 'Oleg', age: 25}, {name: 'Elena', age: 21}, {name: 'Victor', age: 12}], 'age'); => true
+isEverythingTruthy([{car: 'Ford', owner: 'Oleg'}, {car: 'Audi', owner: null}, {car: 'BMW', owner: 'Amazon'}], 'owner') => false
+```
