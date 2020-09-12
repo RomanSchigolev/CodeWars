@@ -425,3 +425,15 @@ The order of returned elements is not important
 arrayDifference1(['javascript', 'is', 'awesome'], ['javascript', 'awesome']) => ['is']
 arrayDifference1([1, 2, 3, 4, 5], [3, 4, 2, 7]) => [1, 5, 7]
 ```
+
+---
+
+## [Deleting elements from an array](https://github.com/RomanSchigolev/CodeWars/blob/master/Deleting%20elements%20from%20an%20array/index.js)
+
+Implement a function that removes elements from an array.
+
+**Example:**
+```
+destroyer([1, 2, 3, 4, 5, 6, 7], 1, 3, 5, 6) => [2, 4, 7]
+destroyer(['this', 'is', 'simple', 'algorithm'], 'this', 'is') => ['simple', 'algorithm']
+```
