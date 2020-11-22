@@ -475,3 +475,18 @@ six(dividedBy(two())); // must return 3
 * The most outer function represents the left operand, the most inner function represents the right operand
 
 * Division should be integer division. For example, this should return 2, not 2.666666...
+
+---
+
+## [Sort the odd](https://github.com/RomanSchigolev/CodeWars/blob/master/Sort%20the%20odd/index.js)
+
+You have an array of numbers.
+Your task is to sort ascending odd numbers but even numbers must be on their places.
+
+Zero isn't an odd number and you don't need to move it. If you have an empty array, you need to return it.
+
+**Example:**
+```js
+sortArray([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4]
+```
+
