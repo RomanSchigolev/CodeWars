@@ -1,11 +1,10 @@
 const solve = string => {
-  let counterLower = 0;
-  let counterUpper = 0;
-  for (let subString of string) {
-    if (subString === subString.toUpperCase()) counterUpper += 1;
-    else counterLower += 1;
+  let counterLowerCase = 0;
+  let counterUpperCase = 0;
+  for (const subString of string) {
+    subString === subString.toUpperCase() ? counterUpperCase += 1 : counterLowerCase += 1;
   }
-  return counterLower >= counterUpper ? string.toLowerCase() : string.toUpperCase();
+  return counterLowerCase >= counterUpperCase ? string.toLowerCase() : string.toUpperCase();
 }
 
 // const solve = string => {
