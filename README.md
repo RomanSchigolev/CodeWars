@@ -490,3 +490,19 @@ Zero isn't an odd number and you don't need to move it. If you have an empty arr
 sortArray([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4]
 ```
 
+---
+
+## [Fix string case](https://github.com/RomanSchigolev/CodeWars/blob/master/Fix%20string%20case/index.js)
+
+In this Kata, you will be given a string that may have mixed uppercase and lowercase letters and your task is to convert that string to either lowercase only or uppercase only based on:
+
+* make as few changes as possible.
+* if the string contains equal number of uppercase and lowercase letters, convert the string to lowercase.
+
+**For example:**
+```js
+solve("coDe") = "code". Lowercase characters > uppercase. Change only the "D" to lowercase.
+solve("CODe") = "CODE". Uppercase characters > lowecase. Change only the "e" to uppercase.
+solve("coDE") = "code". Upper == lowercase. Change all to lowercase.
+```
+
