@@ -506,3 +506,21 @@ solve("CODe") = "CODE". Uppercase characters > lowecase. Change only the "e" to 
 solve("coDE") = "code". Upper == lowercase. Change all to lowercase.
 ```
 
+---
+
+## [Sum of two integers](https://github.com/RomanSchigolev/CodeWars/blob/master/SumTwoIntegers/index.js)
+
+Given Two integers a , b , find The sum of them , BUT You are not allowed to use the operators + and -
+
+### **Notes**
+* The numbers (a,b) may be positive , negative values or zeros .
+* Returning value will be an integer .
+
+* Javascript: the Array reduce methods are disabled, along with eval, require, and module .
+
+### **Input ==> Output Examples**
+```js
+add(5,19) ==> 24
+add(-27,18) ==> -9
+add(-14,-16) ==> -30
+```
