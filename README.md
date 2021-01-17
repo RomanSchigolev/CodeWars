@@ -541,3 +541,24 @@ persistence(999) === 4 // because 9*9*9 = 729, 7*2*9 = 126,
 
 persistence(4) === 0 // because 4 is already a one-digit number
 ```
+
+---
+
+## [Weird words](https://github.com/RomanSchigolev/CodeWars/blob/master/Weird%20words/index.js)
+
+In this kata you will have to change every letter in a given string to the next letter in the alphabet. You will write a function nextLetter to do this. The function will take a single parameter str (string).
+
+### **Examples:**
+```js
+"Hello" --> "Ifmmp"
+
+"What is your name?" --> "Xibu jt zpvs obnf?"
+
+"zoo" --> "app"
+
+"zzZAaa" --> "aaABbb"
+```
+
+### **Note:**
+Spaces and special characters should remain the same. 
+Capital letters should transfer in the same way but remain capitilized.
